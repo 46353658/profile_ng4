@@ -4,18 +4,20 @@
   margin: 0;
 }
 
-/*
-.navbar .navbar-nav {
+
+/* .navbar .navbar-nav {
   float: none;
-}
+} */
 
 .navbar-nav {
   margin: 0px;
+  background-color: #222222;
+  display: flex;
 }
 
-.navbar .nav > li {
+/* .navbar .nav > li {
   display: block;
   float: none;
   height: 80px;
-}
-*/
+} */
+

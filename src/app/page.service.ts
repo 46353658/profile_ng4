@@ -17,7 +17,7 @@ export class PageService {
     awardsBackgroundColor: "white",
     showContact: true,
     contactBackgroundColor: "rgb(66, 73, 73)",
-    resumeTitle: "[Your online resume's title here]",
+    resumeTitle: "Software Engineer",
     projectLink: "https://github.com/Wrinth/personal_profile_angular4"
   };
 

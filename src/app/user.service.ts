@@ -5,13 +5,19 @@ export class UserService {
   private userInfo = {
     name: "Arshad",
     jobTitle: "[Job Title here]",
-    aboutMe: "[Place your description here... For instance: I am an allround web developer. I am a senior programmer with good knowledge of front-end techniques. I love structure and order and I also stand for quality. I love spending time on fixing little details and optimizing web apps. Also I like working in a team, you'll learn faster and much more. As the saying goes: 'two heads are better than one'.]",
-    profilePicture: "http://i0.wp.com/cdn.techgyd.com/save-whatsapp-profile-picture-image3.jpg?resize=337%2C337",
-    location: "[Your location here]",
+    aboutMe: `I'm a software engineer (BSc Computing - UNISA), I've primarily worked in the fintech industry for First National Bank,
+    Hollard and Sanlam. I've developed in a broad array of tech, from mainframe systems that calculate interest and repayment schedules
+    to the contact center front end in Angular and Electron. 
+    
+    I've worked in various programming languages/frameworks and have experience as a System's Analyst.
+    
+    I'm currently employed by Entelect working on devOps and server side Java/Spring for Standard Bank's Web and Mobile platforms.`,
+    profilePicture: "https://images.unsplash.com/photo-1558259167-b4116737909b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80",
+    location: "Johannesburg, South Africa",
     email: "[Your email here]",
     devpostAccount: "",
     facebookAccount: "",
-    githubAccount: "[Your GitHub account here]",
+    githubAccount: "https://github.com/46353658",
     googleAccount: "",
     linkedinAccount: "",
     twitterAccount: "",
