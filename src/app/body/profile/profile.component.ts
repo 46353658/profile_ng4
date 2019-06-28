@@ -16,7 +16,7 @@ export class ProfileComponent implements OnInit {
   ngOnInit() {
     this.userInfo = this.userService.getUserInfo();
     this.pageInfo = this.pageService.getPageInfo();
-    document.getElementById("profile").style.backgroundColor = this.pageInfo['profileBackgroundColor'];
+    document.getElementById("profile").style.backgroundColor = this.pageInfo['profileBackgroundColor'];    // document.getElementById("profile").style.backgroundImage = "url('" + this.pageInfo['backgroundImage'] + "')";
   }
 
 }
