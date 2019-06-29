@@ -14,3 +14,9 @@
   text-align: center;
   color: #727878;
 }
+
+.credit {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: flex-start;
+}
